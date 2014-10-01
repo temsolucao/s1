@@ -23,7 +23,7 @@ public class s4 extends JPanel {
 		JButton btnNewButton = new JButton("New button");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "Usuario voce nao informou o campo data"); 
+				JOptionPane.showMessageDialog(null, "Usuario voce nao informou o campo data!"); 
 			}
 		});
 		btnNewButton.setBounds(22, 75, 117, 29);
